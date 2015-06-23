@@ -106,7 +106,7 @@
 #pragma mark Core methods
 
 /** 
- @brief Opens a socket for ppinging. If the hostAddress is nil, then hostName is first resolved.
+ @brief Opens a socket for pinging. If the hostAddress is nil, then hostName is first resolved.
  */
 - (void)start;
 
