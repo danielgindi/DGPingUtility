@@ -428,7 +428,7 @@ static void HostResolveCallback(__unused CFHostRef theHost, __unused CFHostInfoT
     assert(fd == -1);
 }
 
-- (void)sendPingWithStandardPayload
+- (void)sendPing
 {
     [self sendPingWithData:nil];
 }
