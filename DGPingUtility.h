@@ -118,7 +118,7 @@
 /**
  @brief Sends an actual ping with the standard 56-byte payload resulting in a 64 byte ping.
  */
-- (void)sendPingWithStandardPayload;
+- (void)sendPing;
 
 /**
  @brief Sends an actual ping with the associated payload.
